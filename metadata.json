@@ -1,0 +1,6 @@
+{
+  "name": "XEROXMATE",
+  "description": "Premium dark-themed landing page and launch platform for XEROXMATE printing partner, featuring interactive contact interest collection synced with Google Sheets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
