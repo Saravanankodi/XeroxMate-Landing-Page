@@ -1,3 +1,5 @@
+// React types are unavailable in the current project configuration.
+// @ts-ignore — keep the component buildable until @types/react is installed.
 import { useState, useEffect } from 'react';
 import {
   ArrowUp,
@@ -128,6 +130,7 @@ export default function Footer({ onScrollToConduct }: FooterProps) {
   };
 
   return (
+    
     <footer className="bg-[#05070a] border-t border-slate-900 text-slate-400 py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start justify-between">
@@ -198,7 +201,7 @@ export default function Footer({ onScrollToConduct }: FooterProps) {
 
             <div className="flex items-center justify-between pt-1">
               <span className="text-xs text-slate-500">
-                Powered by <strong className="text-slate-200">Desflyer</strong>
+                Powered by <strong className="text-slate-200">DesFlyer</strong>
               </span>
               <button
                 onClick={scrollToTop}
@@ -220,7 +223,7 @@ export default function Footer({ onScrollToConduct }: FooterProps) {
             {/* Discreet Owner Google Sheet link */}
             <button
               onClick={() => setShowAdminModal(true)}
-              className="hover:text-blue-400 transition-colors flex items-center gap-1 text-[11px] text-slate-600 hover:text-slate-400"
+              className="transition-colors flex items-center gap-1 text-[11px] text-slate-600 hover:text-slate-400"
               title="Google Sheet Configuration"
             >
               <FileSpreadsheet className="w-3.5 h-3.5" />
@@ -332,5 +335,6 @@ export default function Footer({ onScrollToConduct }: FooterProps) {
         </div>
       )}
     </footer>
+    
   );
 }
