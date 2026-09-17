@@ -16,7 +16,7 @@ interface HeroProps {
 }
 
 // Global synchronized release countdown target
-const LAUNCH_AT_UTC_MS = Date.UTC(2026, 8, 16, 13, 30, 0);
+const LAUNCH_AT_UTC_MS = Date.UTC(2026, 8, 20, 10, 30, 0);
 
 const MS_PER_SECOND = 1000;
 const MS_PER_MINUTE = 60 * MS_PER_SECOND;

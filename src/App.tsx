@@ -35,7 +35,7 @@ export default function App() {
       <Navbar onScrollToConduct={scrollToConduct} />
 
       {/* 2. Main Page Flow */}
-      <main className="flex-grow">
+      <main className="grow">
         {/* Hero with Countdown */}
         <Hero
           onScrollToConduct={scrollToConduct}
